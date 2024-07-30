@@ -26,7 +26,7 @@ html {
 }
 
 .container {
-  padding: 80px 0;
+  padding: 80px 40px;
 }
 
 p {
@@ -1288,6 +1288,7 @@ MEDIA
   .quality__work--container,
   .quality__img--wrapper {
     width: 100%;
+    padding: 32px 0;
   }
 
   .step__row {
@@ -1499,6 +1500,7 @@ MEDIA
 
   .email__input {
     max-width: 100%;
+    display: flex;
   }
 
   .landing__input {
@@ -1520,7 +1522,7 @@ MEDIA
   }
 
   .service {
-    width: calc(100% / 2);
+    width: calc(100% / 1);
     max-width: 300px;
     margin: 16px auto;
   }
@@ -1558,6 +1560,10 @@ MEDIA
     margin-top: 24px;
     width: 100%;
     max-width: 200px;
+  }
+
+  .quality__button--center {
+    text-align: center;
   }
 
   .quality__work--container,
@@ -1747,5 +1753,18 @@ MEDIA
   .contact__us {
     padding: 16px 32px;
     margin: 8px 0;
+  }
+
+  .footer__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    position: relative;
+  }
+
+  .footer__link {
+    margin: 0;
   }
 }
