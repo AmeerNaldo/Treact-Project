@@ -1106,7 +1106,7 @@ FOOTER
   margin-top: 96px;
   display: flex;
   flex-direction: column;
-  width: calc(100% / 5);
+  width: 150px;
   align-items: center;
 }
 
@@ -1234,6 +1234,7 @@ MEDIA
   .landing__button {
     width: 100%;
     margin-top: 16px;
+    position: relative;
   }
 
   .feature__description {
@@ -1506,11 +1507,13 @@ MEDIA
   .landing__input {
     width: calc(100% - 64px);
     margin-right: 0;
+    padding: 12px;
   }
 
   .landing__button {
     width: 100%;
     margin-top: 16px;
+    position: relative;
   }
 
   .feature__description {
@@ -1759,7 +1762,6 @@ MEDIA
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
     flex-wrap: wrap;
     position: relative;
   }
