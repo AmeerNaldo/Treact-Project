@@ -691,7 +691,7 @@ PRICING
 */
 
 .pricing__row {
-  margin: 96px 320px;
+  margin: 96px 200px;
 }
 
 .pricing__header {
@@ -1112,7 +1112,6 @@ FOOTER
 
 .footer__title {
   font-size: 16px;
-  padding-bottom: 16px;
 }
 
 .footer__link--wrapper {
@@ -1200,6 +1199,31 @@ MEDIA
 
 */
 
+@media (max-width: 1010px) {
+  .price__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pricing__title {
+    text-align: center;
+  }
+
+  .testimonials__row {
+    margin: 96px 16px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact__container {
+    margin: 64px 16px;
+    padding: 64px 0;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 @media (max-width: 768px) {
   .nav__link {
     display: none;
@@ -1227,7 +1251,6 @@ MEDIA
   }
 
   .landing__input {
-    width: calc(100% - 64px);
     margin-right: 0;
   }
 
@@ -1286,6 +1309,10 @@ MEDIA
     max-width: 200px;
   }
 
+  .quality__button--center {
+    margin: 0 auto;
+  }
+
   .quality__work--container,
   .quality__img--wrapper {
     width: 100%;
@@ -1302,6 +1329,7 @@ MEDIA
     width: 100%;
     padding-right: 0;
     margin-bottom: 32px;
+    align-items: center;
   }
 
   .steps__title {
@@ -1393,6 +1421,7 @@ MEDIA
     width: 100%;
     margin-left: 0;
     margin-top: 32px;
+    align-items: center;
   }
 
   .testimonials__title {
@@ -1424,8 +1453,9 @@ MEDIA
   }
 
   .test__img {
-    width: 4rem;
-    height: 4rem;
+    width: 64px;
+    height: 64px;
+    max-width: 64px;
   }
 
   .test__img--wrapper {
@@ -1505,7 +1535,6 @@ MEDIA
   }
 
   .landing__input {
-    width: calc(100% - 64px);
     margin-right: 0;
     padding: 12px;
   }
